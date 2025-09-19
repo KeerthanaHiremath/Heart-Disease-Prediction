@@ -2,7 +2,7 @@
 
 **Predicting Heart Disease with Machine Learning**
 
-  *Heart disease remains one of the top causes of death worldwide. What if we could predict someone’s risk early and take preventive action? That’s exactly what this project explores.
+Heart disease remains one of the top causes of death worldwide. What if we could predict someone’s risk early and take preventive action? That’s exactly what this project explores.
   
 ---
 **🩺 The Challenge**
@@ -37,6 +37,7 @@ The data comes from the Framingham Heart Study, a long-term study tracking resid
 **Age, cholesterol, systolic BP, and smoking** are strong predictors of heart disease risk
 Logistic Regression provides both predictions and interpretability, making it a good fit for medical applications
 The model helps pinpoint the most significant health factors for prevention
+
 ---
 
 **🛠️ Tools Used**
