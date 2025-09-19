@@ -1,48 +1,62 @@
 # Heart-Disease-Prediction
 
-**📌 Overview**
+**Predicting Heart Disease with Machine Learning**
 
-This project builds a Logistic Regression model to predict the 10-year risk of Coronary Heart Disease (CHD) using the Framingham Heart Study dataset. The model helps identify key cardiovascular risk factors and provides insights into early disease detection.
+Heart disease remains one of the top causes of death worldwide. What if we could predict someone’s risk early and take preventive action? That’s exactly what this project explores.
 
-**🎯 Problem Statement**
+**🩺 The Challenge**
 
-Heart disease is one of the world’s leading causes of death, with the WHO estimating over 12 million deaths annually. Early detection can help patients adopt lifestyle changes and reduce complications. This project aims to predict heart disease risk and highlight the most critical health factors.
+According to the World Health Organization, over 12 million deaths occur annually due to cardiovascular diseases. Many of these could be prevented with early intervention. This project uses machine learning to estimate the 10-year risk of Coronary Heart Disease (CHD), based on patient health data.
 
+**📊 The Dataset**
 
-**🛠️ Approach**
+The data comes from the Framingham Heart Study, a long-term study tracking residents of Framingham, Massachusetts. It contains 4,000+ patient records with 15 attributes, including:
 
-1.Data Import & Cleaning
-2.Exploratory Data Analysis (EDA)
-     Correlation Heatmap
-     Pairplots & Countplots
-3.Feature Selection & Preprocessing
-4.Model Training with Logistic Regression
-5.Model Evaluation
-    Confusion Matrix
-    Classification Report
-    Accuracy & F1 Score
+Demographics: Age, Sex, Education
 
-**📊 Dataset**
+Lifestyle: Smoking habits, Cigarettes per day
 
-Source: Framingham Heart Study (Kaggle)
-Size: 4,000+ patient records, 15 attributes
-Features include:
-    Demographics: age, sex, education
-    Lifestyle: smoking habits
-    Medical history: stroke, hypertension, diabetes
-    Physical exam: cholesterol, BP, BMI, glucose, heart rate
-Target: TenYearCHD → 1 (risk present), 0 (no risk)
+Medical history: Stroke, Hypertension, Diabetes
 
-**📦 Tech Stack**
+Examination data: Cholesterol, Blood Pressure, BMI, Glucose
 
-Python
-Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn
+The target variable is TenYearCHD, which indicates whether a patient is likely to develop CHD within 10 years.
+
+**⚙️ The Solution**
+
+Data Cleaning – Handle missing values, encode categories, scale features
+
+Exploratory Data Analysis (EDA) – Spot correlations between risk factors
+
+Modeling – Train a Logistic Regression classifier
+
+Evaluation – Measure accuracy, precision, recall, and F1 score
+
+**📈 Insights**
+
+Age, cholesterol, systolic BP, and smoking are strong predictors of heart disease risk
+
+Logistic Regression provides both predictions and interpretability, making it a good fit for medical applications
+
+The model helps pinpoint the most significant health factors for prevention
+
+**🛠️ Tools Used**
+
+Python for coding
+
+Pandas, NumPy for data processing
+
+Matplotlib, Seaborn for visualization
+
+Scikit-Learn for machine learning
 
 **✅ Results**
 
-Identified key risk factors: age, smoking, cholesterol, systolic BP, BMI
-Achieved reliable classification accuracy
-Visualized model performance with confusion matrix & metrics
+Built a predictive model with consistent accuracy
+
+Delivered classification reports & confusion matrix for evaluation
+
+Produced visualizations to better understand patient risk factors
 
 **📂 Project Structure**
 ```
