@@ -29,7 +29,7 @@ The data comes from the Framingham Heart Study, a long-term study tracking resid
 - **Modeling –** Train a Logistic Regression classifier
 - **Evaluation –** Measure accuracy, precision, recall, and F1 score
 
-  ---
+---
   
 
 **📈 Insights**
