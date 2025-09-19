@@ -2,11 +2,13 @@
 
 **Predicting Heart Disease with Machine Learning**
 
-Heart disease remains one of the top causes of death worldwide. What if we could predict someone’s risk early and take preventive action? That’s exactly what this project explores.
+  *Heart disease remains one of the top causes of death worldwide. What if we could predict someone’s risk early and take preventive action? That’s exactly what this project explores.
+  
 ---
 **🩺 The Challenge**
 
 According to the World Health Organization, over 12 million deaths occur annually due to cardiovascular diseases. Many of these could be prevented with early intervention. This project uses machine learning to estimate the 10-year risk of Coronary Heart Disease (CHD), based on patient health data.
+
 ---
 
 **📊 The Dataset**
@@ -27,6 +29,9 @@ The data comes from the Framingham Heart Study, a long-term study tracking resid
 - **Modeling –** Train a Logistic Regression classifier
 - **Evaluation –** Measure accuracy, precision, recall, and F1 score
 
+  ---
+  
+
 **📈 Insights**
 
 **Age, cholesterol, systolic BP, and smoking** are strong predictors of heart disease risk
@@ -40,6 +45,7 @@ The model helps pinpoint the most significant health factors for prevention
 - **Pandas, NumPy** for data processing
 - **Matplotlib,** Seaborn for visualization
 - **Scikit-Learn** for machine learning
+  
 ---
 
 **✅ Results**
@@ -47,6 +53,7 @@ The model helps pinpoint the most significant health factors for prevention
 - Built a predictive model with consistent accuracy
 - Delivered classification reports & confusion matrix for evaluation
 - Produced visualizations to better understand patient risk factors
+  
 ---
 
 **📂 Project Structure**
